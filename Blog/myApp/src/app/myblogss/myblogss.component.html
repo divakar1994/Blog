@@ -1,0 +1,64 @@
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo">Blog</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="/myblog">Home</a></li>
+      <li><a href="/myblogss">My Blog</a></li>
+      <li><a href="/fav">Favourites</a></li>
+      <li><a href="/addnew">Add Blog</a></li>
+      <li><input type="text"></li>
+      <li><input type="submit" value="Search"></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row">
+  <a *ngFor="let result of results" class="collection-item">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://www.theblogstarter.com/wp-content/uploads/2014/02/4.jpg">
+          <span class="card-title">{{result.title}}</span>
+        </div>
+        <div class="card-content">
+          <p>{{result.content}}</p>
+        </div>
+        <div class="card-action">
+          {{result.category}}
+          <button class="a" (click)="edit(result.id)">Edit</button>
+          <button class="a" (click)="deletePost(result)">Delete</button>
+        </div>
+
+      </div>
+    </div>
+  </a>
+</div>
+
+
+<div class="row" *ngIf="show===true">
+
+  <div class="col s12 m7">
+    <div class="card">
+      <div class="card-image">
+        <img src="https://www.theblogstarter.com/wp-content/uploads/2014/02/4.jpg">
+        <input class="card-title" [(ngModel)]="blog.title" placeholder={{blog.title}}>
+      </div>
+      <div class="card-content">
+        <input [(ngModel)]="blog.content" placeholder={{blog.content}}>
+      </div>
+      <input class="card-action" [(ngModel)]="blog.category" value={{blog.category}}>
+
+      <button (click)="update(blog)">Save Change</button>
+
+    </div>
+  </div>
+
+
+</div>

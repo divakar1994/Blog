@@ -1,0 +1,33 @@
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+
+<div class="row">
+  <h1>Add Blog</h1>
+
+  <div class="row">
+    <div class="input-field col s12">
+
+      <input [(ngModel)]="blog.title" type="text" class="validate" placeholder="Title">
+
+
+      <input [(ngModel)]="blog.content" type="text" class="validate" placeholder="Content">
+
+
+
+
+    </div>
+  </div>
+  <select class="browser-default" [(ngModel)]="blog.category">
+    <option value="movies">Movies</option>
+    <option value="sports">Sports</option>
+  </select>
+  <br><br>
+
+
+</div>
+
+<button (click)="add(blog)">Submit</button>

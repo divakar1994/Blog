@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+
+<div class="row">
+  <a *ngFor="let result of results" class="collection-item">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://www.theblogstarter.com/wp-content/uploads/2014/02/4.jpg">
+          <span class="card-title">{{result.title}}</span>
+        </div>
+        <div class="card-content">
+          <p>{{result.content}}</p>
+        </div>
+        <div class="card-action">
+          {{result.category}}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

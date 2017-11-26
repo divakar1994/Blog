@@ -1,0 +1,380 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "divakar",
+      "password": "chotelal1",
+      "blog": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "nikhil",
+      "password": "chotelal2",
+      "blog": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "name": "parv",
+      "password": "chotelal3",
+      "blog": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "name": "rhythm",
+      "desc": "chotelal4",
+      "blog": [
+        1,
+        2
+      ]
+    }
+  ],
+  "blog": [
+    {
+      "id": 2,
+      "author_id": 2,
+      "title": "Titanic",
+      "content": "Nice movie to watch",
+      "category": "movies"
+    },
+    {
+      "id": 3,
+      "author_id": 3,
+      "title": "Border",
+      "content": "It is an Indian movie",
+      "category": "movies"
+    },
+    {
+      "id": 4,
+      "author_id": 4,
+      "title": "Football",
+      "content": "I love football",
+      "category": "sports"
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 16,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 17,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 18,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 19,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 20,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 21,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 22,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 23,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 24,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 25,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 26,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 27,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 28,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 29,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 30,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 31,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 32,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 33,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 34,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 35,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 36,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 37,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 38,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 39,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 40,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 41,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 42,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 43,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 44,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 45,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 46,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 47,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 48,
+      "author_id": null,
+      "title": "",
+      "content": "",
+      "category": ""
+    },
+    {
+      "id": 49,
+      "author_id": null,
+      "title": "s",
+      "content": "dddd",
+      "category": "sports"
+    },
+    {
+      "id": 50,
+      "author_id": null,
+      "title": "sss",
+      "content": "ssss",
+      "category": "sports"
+    },
+    {
+      "id": 51,
+      "author_id": null,
+      "title": "ddd",
+      "content": "ddd",
+      "category": "movies"
+    },
+    {
+      "id": 52,
+      "author_id": null,
+      "title": "dddddddd",
+      "content": "dddddddddddddd",
+      "category": "sports"
+    },
+    {
+      "id": 53,
+      "author_id": 1,
+      "title": "rrrrrrrssssss",
+      "content": "rrrrrrrrrrsssssssss",
+      "category": "sports"
+    },
+    {
+      "id": 54,
+      "author_id": 1,
+      "title": "ddd",
+      "content": "dddddddd",
+      "category": "sports"
+    },
+    {
+      "id": 55,
+      "author_id": 1,
+      "title": "cc",
+      "content": "cccccc",
+      "category": "movies"
+    }
+  ]
+}
